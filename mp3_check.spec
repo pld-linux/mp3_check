@@ -5,9 +5,10 @@ Version:	1.98
 Release:	3
 License:	GPL
 Group:		Applications/File
-Source0:	http://freshmeat.net/redir/mp3_check/6710/url_tgz/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/mp3check/%{name}-%{version}.tar.gz
 # Source0-md5:	d10e3d7d434af17cc036b752a816e492
 Patch0:		%{name}-types.patch
+URL:		http://sourceforge.net/projects/mp3check/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
