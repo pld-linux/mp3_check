@@ -2,10 +2,11 @@ Summary:	Simple tool to check mp3s files
 Summary(pl):	Proste narzêdzie do sprawdzania plików mp3
 Name:		mp3_check
 Version:	1.98
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/File
 Source0:	http://freshmeat.net/redir/mp3_check/6710/url_tgz/%{name}-%{version}.tar.gz
+Patch0:		%{name}-types.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,9 +21,10 @@ tworzenia archiwum, w którym zawarte s± pliki mp3 o wysokiej jako¶ci.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
-%{__make} CC=%{__cc}
+%{__make} CC=%{__cc} CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
