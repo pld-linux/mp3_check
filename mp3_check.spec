@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/File
 Source0:	http://freshmeat.net/redir/mp3_check/6710/url_tgz/%{name}-%{version}.tar.gz
+# Source0-md5:	d10e3d7d434af17cc036b752a816e492
 Patch0:		%{name}-types.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
