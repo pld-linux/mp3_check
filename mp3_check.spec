@@ -5,10 +5,10 @@ Version:	1.98
 Release:	3
 License:	GPL
 Group:		Applications/File
-Source0:	http://dl.sourceforge.net/sourceforge/mp3check/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/mp3check/%{name}-%{version}.tar.gz
 # Source0-md5:	d10e3d7d434af17cc036b752a816e492
 Patch0:		%{name}-types.patch
-URL:		http://sourceforge.net/projects/mp3check/
+URL:		http://mp3check.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,7 +26,9 @@ tworzenia archiwum, w którym zawarte s± pliki mp3 o wysokiej jako¶ci.
 %patch -p1
 
 %build
-%{__make} CC=%{__cc} CFLAGS="%{rpmcflags} -Wall"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
