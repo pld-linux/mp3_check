@@ -2,7 +2,7 @@ Summary:	Simple tool to check mp3s files
 Summary(pl):	Proste narzêdzie do sprawdzania plików mp3
 Name:		mp3_check
 Version:	1.98
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/File
 Source0:	http://freshmeat.net/redir/mp3_check/6710/url_tgz/%{name}-%{version}.tar.gz
