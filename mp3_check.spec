@@ -1,5 +1,5 @@
-Summary:	Simple tool to check mp3s files
-Summary(pl):	Proste narzêdzie do sprawdzania plików mp3
+Summary:	Simple tool to check MP3s files
+Summary(pl):	Proste narzêdzie do sprawdzania plików MP3
 Name:		mp3_check
 Version:	1.98
 Release:	3
@@ -19,7 +19,7 @@ building an archive, and you want high quality MP3s.
 %description -l pl
 mp3_check szuka z³ych ramek nag³ówków, zgubionych ramek, itp. oraz
 generuje u¿yteczny raport. mp3_check jest bardzo przydatny do
-tworzenia archiwum, w którym zawarte s± pliki mp3 o wysokiej jako¶ci.
+tworzenia archiwum, w którym zawarte s± pliki MP3 o wysokiej jako¶ci.
 
 %prep
 %setup -q
