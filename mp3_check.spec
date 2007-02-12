@@ -1,5 +1,5 @@
 Summary:	Simple tool to check MP3s files
-Summary(pl):	Proste narzÍdzie do sprawdzania plikÛw MP3
+Summary(pl.UTF-8):   Proste narzƒôdzie do sprawdzania plik√≥w MP3
 Name:		mp3_check
 Version:	1.98
 Release:	3
@@ -16,10 +16,10 @@ mp3_check looks for invalid frame headers, missing frames, etc., and
 generates useful statistics. This can be especially important when
 building an archive, and you want high quality MP3s.
 
-%description -l pl
-mp3_check szuka z≥ych ramek nag≥ÛwkÛw, zgubionych ramek, itp. oraz
-generuje uøyteczny raport. mp3_check jest bardzo przydatny do
-tworzenia archiwum, w ktÛrym zawarte s± pliki MP3 o wysokiej jako∂ci.
+%description -l pl.UTF-8
+mp3_check szuka z≈Çych ramek nag≈Ç√≥wk√≥w, zgubionych ramek, itp. oraz
+generuje u≈ºyteczny raport. mp3_check jest bardzo przydatny do
+tworzenia archiwum, w kt√≥rym zawarte sƒÖ pliki MP3 o wysokiej jako≈õci.
 
 %prep
 %setup -q
