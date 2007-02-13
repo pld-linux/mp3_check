@@ -1,5 +1,5 @@
 Summary:	Simple tool to check MP3s files
-Summary(pl.UTF-8):   Proste narzędzie do sprawdzania plików MP3
+Summary(pl.UTF-8):	Proste narzędzie do sprawdzania plików MP3
 Name:		mp3_check
 Version:	1.98
 Release:	3
