@@ -23,7 +23,7 @@ tworzenia archiwum, w którym zawarte są pliki MP3 o wysokiej jakości.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} \
